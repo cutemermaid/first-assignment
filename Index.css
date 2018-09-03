@@ -1,0 +1,260 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#header{
+    height: 83px;
+    background-color:  #3b5998;
+}
+#header .wrapper{
+    height: 77px;
+}
+#header .wrapper, #container .wrapper,#footer .wrapper{
+    width: 980px;
+    
+    margin: 0px auto;
+    
+    
+}
+#header .logo{
+    float: left;
+    width: 170px;
+    height: 52px;
+    background-image: url("./Images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 31px;
+    color:black;
+    
+
+}
+#header .login{
+    float: right;
+    width: 392px;
+    height: 64px;
+    padding-top: 13px;
+    color: white;
+    font-size: 12px;
+    
+    
+}
+#header .login .label{
+    float: left;
+    width: 164px;
+    height: 20px;
+    color: white;
+    
+    padding-top: 1px;
+    
+
+}
+#header .login .text{
+    float: left;
+    width: 150px;
+    height: 21px;
+    margin-top: -1px;
+    border:1px solid #1d2a5b;
+    padding: 0;
+    font-size: 12px;
+    margin-left: 14px;
+    width: 148px;
+
+    
+}
+#header .login .button{
+    font-size: 12px;
+    margin-top: -1px;
+    float: left;
+    width: 50px;
+    height: 24px;
+    background-color:#4267b2;
+    border: 1px solid #29487d;
+    color: white;
+    margin-left:14px;
+    font-weight: bold;
+    border-radius: 1px;
+}
+
+#header .login .link{
+    float: left;
+    padding-left: 169px;
+    color:#9cb4d8;
+    padding-top: 4px;
+    text-decoration: none;
+    margin-left: 9px;
+    margin-top: 1px;
+}
+
+
+#container{
+    height: 569px;
+    background:linear-gradient(white, #D3D8E8);
+}
+
+#container .box1 {
+    clear: left;
+}
+#container .box1, #container .box2 {
+    float: left;
+    width: 50%;
+    height: inherit;
+    background:linear-gradient(white);
+
+}
+#container .box1 .label{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    padding-right: 10px;
+    word-spacing: -1px;
+    width: 100%;
+    
+    clear: right;
+}
+#container .box1 .map{
+    
+    clear: both;
+    margin:inherit;
+    width: 537px;
+    background-image: url("./Images/map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    height: 195px;
+    
+}
+
+#container .box2 h1{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 25px;
+     font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    width: 450px;
+    margin-left: 90px;
+  
+}
+#container .box2 .label{
+    padding-left: 90px;
+    margin-top: 11px;
+    font-size: 19px;
+    padding-bottom: 10px;
+    color:#1d2129;
+    margin-bottom: 10px;
+
+}
+#container .box2 .wrapper{
+    width: 400px;
+    height: 100px;
+    padding-left: 55px;
+}
+#container .box2 .wrapper .text{
+    width: 191px;
+    height: 34px;
+    float: left;
+    font-size: 18px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border-color: #bdc7d8;
+    background-color: white;
+    border: 1px solid #bdc7d8;
+    
+
+}
+#container .box2 .wrapper .text1{
+    width: 394px;
+    height: 34px;
+    font-size: 18px;
+    margin-top:5px;
+    float: left;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    border-color: #bdc7d8;
+    background-color:white;
+
+
+}
+#container .box2 .wrapper .label{
+    height: 20px;
+    width:90px;
+    margin-top: 1em 0;
+    font-family: inherit;
+    
+    
+
+}
+#container .box2 .wrapper .link{
+    font-size: 11px;
+    max-width: 150px;
+
+    margin-left: 2px;
+    color:#365899;
+    text-decoration: none;
+}
+#container .box2 .wrapper .radio{
+    float: left;
+    font-family: inherit;
+    font-size: 20px;
+    color: #1d2129;
+    line-height: 18px;
+    font-weight: normal;
+    padding: 0 10px;
+    clear: both;
+    
+    
+    
+}
+#container .box2 .label2{
+    font-size: 11px;
+    width: 400px;
+    height: 28px;
+    margin-top: 20px;
+    color: #777;
+    padding-left: 70px;
+}
+#container .box2 .button1{
+    width: 194px;
+    
+    height: 39px;
+    font-size: 19px;
+    background: linear-gradient(#67ae55, #578843);
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    text-align: center;
+    box-shadow: inset 0 1px 1px #a4e388;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    
+
+}
+#container .box2  .link{
+    font-size: 13px;
+    color:#365899;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    
+    margin-top: 10px;
+    padding-top: 15px;
+}
+#footer{
+    height: 200px;
+    background-color: whitesmoke;
+    
+}
+
+#footer .wrapper .link{
+    color: #365899;
+    font-size: 14px;
+    padding-right: 10px;
+    text-decoration: none;
+
+}
+
