@@ -175,6 +175,7 @@ html,body{
     height: 33px;
     float: left;
     font-size: 18px;
+    margin-top: 2px;
     margin-bottom: 8px;
     border-radius: 5px;
     border-color: #bdc7d8;
@@ -208,6 +209,26 @@ html,body{
     height: 30px;
     padding: 5px;
     border-radius: 0px;
+}
+#container .wrapper select[name="birthday_day"]{
+    width: 56px;
+    margin-top: 2px;
+    height: 30px;
+    margin-right: -4px;
+    margin-left: 34px;
+    padding: 5px;
+    background-color:buttonface;
+}
+#container .wrapper select[name="birthday_month"]{
+    width:69px;
+     height: 30px;
+     margin-top: 2px;
+    margin-right: -5px;
+}
+#container .wrapper select[name="birthday_year"]{
+    width: 61px;
+     height: 30px;
+    margin-top: 2px;
 }
 #container .box2 .wrapper2{
     width:400px;
@@ -272,6 +293,8 @@ html,body{
     border: 1px solid;
     border-radius: 5px;
     color: #fff;
+    margin-left:90px;
+    margin-top: 21px;
     border-color: #3b6e22 #3b6e22 #2c5115;
     font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
     text-decoration: none;
@@ -284,7 +307,14 @@ html,body{
     line-height: 126%;
 
 }
-
+#container .box2 .label3{
+    margin-top:36px;
+    margin-left: 90px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+    border-top: 1px solid #dddfe2;
+}
 
 /* #container .box2  .wrapper .wrapper1{ 
     clear: left;
