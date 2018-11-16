@@ -42,8 +42,6 @@ html,body{
     background-repeat: no-repeat;
     margin-top: 31px;
     color:black;
-    
-
 }
 #header .login{
     float: right;
@@ -52,18 +50,13 @@ html,body{
     padding-top: 13px;
     color: white;
     font-size: 12px;
-    
-    
 }
 #header .login .label{
     float: left;
     width: 164px;
     height: 20px;
     color: white;
-    
     padding-top: 1px;
-    
-
 }
 #header .login .text{
     float: left;
@@ -75,8 +68,6 @@ html,body{
     font-size: 12px;
     margin-left: 14px;
     width: 148px;
-
-    
 }
 #header .login .button{
     font-size: 12px;
@@ -91,7 +82,6 @@ html,body{
     font-weight: bold;
     border-radius: 1px;
 }
-
 #header .login .link{
     float: left;
     padding-left: 169px;
@@ -115,8 +105,6 @@ html,body{
     float: left;
     width: 50%;
     height: 100%;
-    
-
 }
 #container .box1 .label{
     color: #0e385f;
@@ -124,35 +112,21 @@ html,body{
     font-weight: bold;
     line-height: 29px;
     margin-top: 40px;
-   /* padding-right: 10px;*/
     word-spacing: -1px;
-   /* width: 100%;*/
-    
-    clear: right;
+    /* clear: right; */
 }
 #container .box1 .map{
-    
-    /*clear: both;*/
-    /*margin:inherit;*/
     width: 537px;
     background-image: url("./Images/map.png");
-   /* background-size: contain;*/
     background-repeat: no-repeat;
-   /* margin-top: 0px;*/
     height: 195px;
-    
 }
-
 #container .box2 h1{
     margin: 0px;
-    /*padding: 0px;*/
     margin-top: 25px;
      font-size: 36px;
-   /* font-weight: bold;*/
     color: #333;
-   /* width: 450px;*/
     margin-left: 90px;
-  
 }
 #container .box2 .label{
     padding-left: 90px;
@@ -161,14 +135,12 @@ html,body{
     padding-bottom: 10px;
     color:#1d2129;
     margin-bottom: 10px;
-
 }
 #container .box2 .wrapper1{
     width: 100%;
     height: auto;
     padding-left: 55px;
     float: left;
-    /*clear: left;*/
 }
 #container .box2 .wrapper1 .text{
     width: 183px;
@@ -184,7 +156,6 @@ html,body{
     margin-left: 18px;
     padding-left: 9px;
     padding-top: 2px;
-
 }
 #container .box2 .wrapper1 .text1{
     width: 389px;
@@ -200,8 +171,6 @@ html,body{
     background-color:white;
     padding-top: 2px;
     padding-left: 9px;
-    
-
 }   
 #container .wrapper select{
     border: 1px solid #bdc7d8;
@@ -237,7 +206,6 @@ html,body{
     margin-left: 56px;
     float: left;
     clear: left;
-
 }
 #container .box2 .wrapper2 .birth{
     font-size: 18px;
@@ -252,16 +220,14 @@ html,body{
     margin-left: 10px;
     color:#365899;
     text-decoration: none;
-    
 }
   #container .box2 .wrapper3{
       float: left;
-      clear: left;
+      /* clear: left; */
       font-size: 18px;
       margin-left: 96px;
       margin-top: 4px;
       line-height: 1.34;
-
   }
   #container .box2 .link{
     font-size: 11px;
@@ -270,12 +236,9 @@ html,body{
     color:#365899;
     cursor: poainter;
     text-decoration: none;
-
     margin-left: 9px;
     margin-top: 3px;
-
 }
-
 #container .box2 .label2{
     font-size: 11px;
     width: 316px;
@@ -284,21 +247,18 @@ html,body{
     margin-left: 90px;
     color: #777;
     float: left;
-   /* clear: left;*/
     line-height: 1.34;
 }
 #container .box2 .label2 .link1{
 text-decoration:none;
 color: #365899;
 }
-
 #container .box2 .label3 .link2{
 text-decoration:none;
 color: #365899;
 }
 #container .box2 .button1{
     width: 194px;
-    
     height: 39px;
     font-size: 19px;
     background: linear-gradient(#67ae55, #578843);
@@ -317,7 +277,6 @@ color: #365899;
     box-shadow: inset 0 1px 1px #a4e388;
     text-shadow: 0 1px 2px rgba(0,0,0,.5);
     line-height: 126%;
-
 }
 #container .box2 .label3{
     margin-top:36px;
@@ -327,23 +286,13 @@ color: #365899;
     color: #666;
     border-top: 1px solid #dddfe2;
 }
-
-/* #container .box2  .wrapper .wrapper1{ 
-    clear: left;
-    float: left;
-    font-size: 18px;
-    height: 38px;
-    margin-top: 6px;
-    margin-left: 38px;
-
-} */
 /* BODY ENDS HERE */
 /* FOOTER STARTS HERE */
 #footer{
     padding-top: 40px;
-    height: 140px;
+    height: 159px;
     background-color:#fff;
-    
+    min-width: max-content;
 }
 #footer .wrapper .label4{
     padding-bottom:12px;
@@ -352,34 +301,28 @@ color: #365899;
     padding-top:9px;
     text-decoration: none;
 }
-
 #footer .wrapper .lang{
     color: #365899;
     font-size: 12px;
     padding-right: 5px;
     text-decoration: none;
     line-height: 1.34;
-
 }
 #footer .wrapper .lang.eng{
     color: #737373;
     padding-left: 0px;
     padding-right: 7px;
-
 }
 #footer .wrapper .link{
     color: #365899;
     font-size: 12px;
-    
     padding-right: 15px;
-    
     text-decoration: none;
     line-height: 1.5;
-
 }
 #footer .wrapper .copyright{
     font-size: 11px;
     color: #737373;
-    padding-top: 22px;
+    padding-top: 41px;
 }
 /* FOOTER ENDS HERE */
